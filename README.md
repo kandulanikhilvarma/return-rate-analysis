@@ -6,7 +6,14 @@
 
 **Dataset:** UCI Online Retail (541,909 transactions, 2010–2011)
 
-**Business context:** Germany is Europe's most return-intensive market. In 2025, online retailers face a "Margin Trap" where growth is overshadowed by the sheer volume of reverse logistics. Despite a market volume reaching US$124.2 billion, the industry is struggling with a projected 550 million return packages annually.
+**Business context:** Germany is Europe's highest-return 
+e-commerce market. With €92.4 billion in online sales (HDE, 2025) 
+and return rates exceeding 50% in fashion, German retailers lose 
+an estimated €2.6 billion annually from fashion returns alone. 
+Each return costs retailers €5–10 in logistics and processing 
+(EHI Retail Institute, 2024). This analysis identifies which 
+product categories, price ranges and customer segments drive 
+the highest return rates — and what it costs annually.
 
 
 ---
