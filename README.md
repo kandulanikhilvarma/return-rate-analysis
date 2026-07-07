@@ -48,10 +48,24 @@ Germany is Europe's highest-return e-commerce market. With €92.4 billion in on
 ```bash
 git clone https://github.com/kandulanikhilvarma/return-rate-analysis.git
 cd return-rate-analysis
-pip install -r requirements.
+pip install -r requirements.txt
+```
+
 _Notebooks and cleaned data are being finalised and will be committed here shortly._
 
-```
+---
+
+## Data & Attribution
+
+Source data is the **Online Retail** dataset from the UCI Machine Learning
+Repository (Chen, 2015), distributed under the
+[Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+license.
+
+> Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33
+
+Analysis code in this repository is released under the MIT License (see
+[LICENSE](LICENSE)); the source data remains under its original terms.
 
 ---
 
