@@ -3,6 +3,8 @@
 > 🚧 **Work in progress** — research question, dataset, and methodology below are locked. The analysis notebooks and cleaned datasets are being finalised and will be committed here shortly.
 
 
+![Status](https://img.shields.io/badge/status-work%20in%20progress-orange) ![Python](https://img.shields.io/badge/Python-3.10+-blue) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE) ![Data](https://img.shields.io/badge/Data-UCI%20Online%20Retail-green)
+
 What product categories, price ranges, and customer segments drive the highest return rates? Analysed using UK retail data in the context of Germany's €92B e-commerce market, where returns exceed 50% in fashion.
 
 | Status | Dataset | Scope | Business Impact |
@@ -87,3 +89,8 @@ Analysis code in this repository is released under the MIT License (see
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+**Nikhilvarma Kandula** — Data Science · NLP · Statistical Analysis  
+[LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula) · [Email](mailto:kandulanikhilvarma@gmail.com) · [Portfolio](https://kandula.studio)
