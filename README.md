@@ -1,5 +1,7 @@
 <!-- structure: metric-first impact sheet -->
 # Return Rate Analysis — E-Commerce Risk Segmentation
+> 🚧 **Work in progress** — research question, dataset, and methodology below are locked. The analysis notebooks and cleaned datasets are being finalised and will be committed here shortly.
+
 
 What product categories, price ranges, and customer segments drive the highest return rates? Analysed using UK retail data in the context of Germany's €92B e-commerce market, where returns exceed 50% in fashion.
 
@@ -46,8 +48,9 @@ Germany is Europe's highest-return e-commerce market. With €92.4 billion in on
 ```bash
 git clone https://github.com/kandulanikhilvarma/return-rate-analysis.git
 cd return-rate-analysis
-pip install -r requirements.txt
-# Notebooks and data files coming soon
+pip install -r requirements.
+_Notebooks and cleaned data are being finalised and will be committed here shortly._
+
 ```
 
 ---
