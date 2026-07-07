@@ -34,6 +34,21 @@ Germany is Europe's highest-return e-commerce market. With €92.4 billion in on
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart LR
+    A["UCI Online Retail<br/>541,909 transactions"] --> B["Clean<br/>cancellations · missing CustomerID"]
+    B --> C["Segment analysis<br/>category · price tier"]
+    B --> D["Customer behaviour<br/>geography · repeat returns"]
+    C --> E["Return-risk scoring"]
+    D --> E
+    E --> F["German-market extrapolation"]
+    F --> G["Recommendations"]
+```
+
+> Planned pipeline — this repo is a work in progress; notebooks and cleaned data land here as they are finalised.
+
 ## Analysis Outline
 
 - **Segment analysis:** Return rates by product category and price tier
