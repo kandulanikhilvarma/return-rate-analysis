@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Return Rate Analysis: E-Commerce Return-Risk Segmentation"
+authors:
+  - family-names: Kandula
+    given-names: Nikhilvarma
+    email: kandulanikhilvarma@gmail.com
+    website: "https://kandula.studio"
+type: software
+url: "https://github.com/kandulanikhilvarma/return-rate-analysis"
+repository-code: "https://github.com/kandulanikhilvarma/return-rate-analysis"
+license: MIT
+keywords:
+  - ecommerce
+  - return-rate
+  - segmentation
+  - data-analysis
