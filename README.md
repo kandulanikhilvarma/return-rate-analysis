@@ -3,6 +3,8 @@
 > 🚧 **Work in progress** — research question, dataset, and methodology below are locked. The analysis notebooks and cleaned datasets are being finalised and will be committed here shortly.
 
 
+![Status](https://img.shields.io/badge/status-work%20in%20progress-orange) ![Python](https://img.shields.io/badge/Python-3.10+-blue) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE) ![Data](https://img.shields.io/badge/Data-UCI%20Online%20Retail-green)
+
 What product categories, price ranges, and customer segments drive the highest return rates? Analysed using UK retail data in the context of Germany's €92B e-commerce market, where returns exceed 50% in fashion.
 
 | Status | Dataset | Scope | Business Impact |
@@ -34,6 +36,21 @@ Germany is Europe's highest-return e-commerce market. With €92.4 billion in on
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart LR
+    A["UCI Online Retail<br/>541,909 transactions"] --> B["Clean<br/>cancellations · missing CustomerID"]
+    B --> C["Segment analysis<br/>category · price tier"]
+    B --> D["Customer behaviour<br/>geography · repeat returns"]
+    C --> E["Return-risk scoring"]
+    D --> E
+    E --> F["German-market extrapolation"]
+    F --> G["Recommendations"]
+```
+
+> Planned pipeline — this repo is a work in progress; notebooks and cleaned data land here as they are finalised.
+
 ## Analysis Outline
 
 - **Segment analysis:** Return rates by product category and price tier
@@ -48,13 +65,32 @@ Germany is Europe's highest-return e-commerce market. With €92.4 billion in on
 ```bash
 git clone https://github.com/kandulanikhilvarma/return-rate-analysis.git
 cd return-rate-analysis
-pip install -r requirements.
+pip install -r requirements.txt
+```
+
 _Notebooks and cleaned data are being finalised and will be committed here shortly._
 
-```
+---
+
+## Data & Attribution
+
+Source data is the **Online Retail** dataset from the UCI Machine Learning
+Repository (Chen, 2015), distributed under the
+[Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+license.
+
+> Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33
+
+Analysis code in this repository is released under the MIT License (see
+[LICENSE](LICENSE)); the source data remains under its original terms.
 
 ---
 
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+**Nikhilvarma Kandula** — Data Science · NLP · Statistical Analysis  
+[LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula) · [Email](mailto:kandulanikhilvarma@gmail.com) · [Portfolio](https://kandula.studio)
